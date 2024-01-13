@@ -1,5 +1,9 @@
 rtcom-accounts-plugin-telegram (1.0.0) unstable; urgency=low
 
   * Initial release
+  * Currently one cannot link an account yet as the dialog requesting the pin
+    does not show, so this needs to be done in purple first
+  * Also, apparmor will currently get in the way of telepathy-haze being able
+    to access the ~/.local/share/tdlib directory.
 
  -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 10 Jan 2024 17:46:34 +0100
